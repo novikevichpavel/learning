@@ -103,38 +103,54 @@
 
 
 
-import array
+# import array
 
-my_int_array = array.array("i", [4, 5, 10, 5, 7, 5])
+# my_int_array = array.array("i", [4, 5, 10, 5, 7, 5])
 
-print(my_int_array.count(5))
-# Вывод кол-ва раз повторений элементов в массиве
-my_int_array.pop()
-print(my_int_array)
-# Delete last character
-print(len(my_int_array))
+# print(my_int_array.count(5))
+# # Вывод кол-ва раз повторений элементов в массиве
+# my_int_array.pop()
+# print(my_int_array)
+# # Delete last character
+# print(len(my_int_array))
 
-with open("my_array.bin", "wb") as my_file:
-    my_int_array.tofile(my_file)
-    print("Success")
+# with open("my_array.bin", "wb") as my_file:
+#     my_int_array.tofile(my_file)
+#     print("Success")
  
-imported_array = array.array("i")
+# imported_array = array.array("i")
 
-with open("my_array.bin", "rb") as import_file:
-    imported_array.fromfile(import_file, 3)
-    print(f"File was imported successfully. Your array is {imported_array}")
-
-
+# with open("my_array.bin", "rb") as import_file:
+#     imported_array.fromfile(import_file, 3)
+#     print(f"File was imported successfully. Your array is {imported_array}")
 
 
 
+# my_dict = {}
+
+# for i in range(1, 4):
+#     key = input("Enter  key: ").strip()
+#     value = input("Enter value: ").strip()
+#     my_dict[key] = value  
+
+# print(my_dict)
+
+
+
+int = 10467
+
+print(int % 1000 // 100)
 
 
 
 
 
 
-import sys
 
-print(sys.argv)
+
+
+
+# import sys
+
+# print(sys.argv)
 
