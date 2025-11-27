@@ -68,6 +68,7 @@
 #     (1, "QA Course Stormnet", 17, 4),
 #     (2, "QA Course Ksendzov", 1500, 53),
 #     (3, "Python course", 50, 27)
+#      (4, "Python course 2", 51, 26)  
 # ]
 
 # with sqlite3.connect(DB_NAME) as add_touple_in:
