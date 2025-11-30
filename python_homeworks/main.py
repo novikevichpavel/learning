@@ -152,5 +152,30 @@ print(int % 1000 // 100)
 
 # import sys
 
+
 # print(sys.argv)
 
+# Создать новый файл procces_array.py. Jжидать внем аргумент от пользователя, который будет являться именем файла из которого необходимо создать массив. То есть нужно передать аргументом файл my_array.bin вы должны передать аргумент my_array.bin, необходимо обработать внутри программы пайтон  создать из это фалйа array с помощью встроенного модуля array
+
+
+# import sys
+# from array import array
+
+# new_array = array("i")
+# >>>>>>> 2fba1380e9d5424fcfd7d97caf92f001d2519057:python_homeworks/main.py
+
+# try:
+#     with open("my_array.bin", "rb") as array_file:
+#         new_array.fromfile(array_file, 6)
+#         print("File was imported")
+# except:
+#     raise ValueError ("File does not have array in it")
+
+# convert_array = str(new_array)
+
+# try:
+#     with open("procces_array.py", "w") as test_file:
+#         test_file.write(convert_array)
+#         print("success")
+# except:
+#     raise ValueError ("File must have string type of dates")
